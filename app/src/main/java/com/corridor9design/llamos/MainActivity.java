@@ -150,13 +150,13 @@ public class MainActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "SECTION 1";
+                    return "Areas";
                 case 1:
-                    return "SECTION 2";
+                    return "Events";
                 case 2:
-                    return "SECTION 3";
+                    return "Profiles";
                 case 3:
-                    return "SECTION 4";
+                    return "Recent";
             }
             return null;
         }
